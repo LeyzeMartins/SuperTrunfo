@@ -30,7 +30,7 @@ int main() {
     fgets(cidade1, sizeof(cidade1), stdin);
 
     printf("Digite o Numero de Habitantes:\n");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1);
 
     printf("Digite a Area da Cidade em Km:\n");
     scanf("%f", &areaKm1);
@@ -63,7 +63,7 @@ int main() {
     fgets(cidade2, sizeof(cidade2), stdin);
 
     printf("Digite o Numero de Habitantes:\n");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
 
     printf("Digite a Area da Cidade em Km:\n");
     scanf("%f", &areaKm2);
