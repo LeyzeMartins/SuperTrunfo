@@ -17,15 +17,21 @@ int main() {
     float super_poder1,super_poder2;
 
     // ===== ENTRADA DOS DADOS DA CARTA 1 =====
-    printf("\nOlá usuário! Agora vamos digitar os dados da CARTA 1:\n");
 
-    printf("Digite um Estado:\n");
+    printf("Seja bem-vindo(a), mestre urbanista!\n");
+    printf("Sua missão: cadastrar duas cidades e calcular\n");
+    printf("os indicadores de desenvolvimento urbano!\n\n");
+
+     // Entrada dos dados da carta 1
+    printf("  Missão 1: Cadastro da Carta 1\n");
+
+    printf("Informe o Estado da Cidade (Ex: MG):\n");
     scanf("%s", estado1);
 
-    printf("Digite o Codigo da Carta:\n");
+    printf("Informe o código secreto da carta (Ex: A01):");
     scanf("%s", codigo1);
 
-    printf("Digite o Nome da Cidade:\n");
+    printf("Digite o Nome da Cidade Lendária:\n");
     getchar(); // Limpa o buffer do enter anterior
     fgets(cidade1, sizeof(cidade1), stdin);
 
@@ -50,12 +56,13 @@ int main() {
 
 
     // ===== ENTRADA DOS DADOS DA CARTA 2 =====
-    printf("\n--- Digite os dados da CARTA 2 ---\n");
-
-    printf("Digite um Estado:\n");
+    
+    printf("  Missão 1: Cadastro da Carta 2\n");
+   
+    printf("Informe o Estado da Cidade (Ex:SP):\n");
     scanf("%s", estado2);
 
-    printf("Digite o Codigo da Carta:\n");
+    printf("Digite o Código secreto da Carta(Ex: B01):\n");
     scanf("%s", codigo2);
 
     printf("Digite o Nome da Cidade:\n");
